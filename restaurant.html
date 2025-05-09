@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón de Rubio 🍔</title>
+    <style>
+        /* Estilo general */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            text-align: center;
+            background-color: #ffcc00;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: #333;
+            font-size: 2.5em;
+        }
+
+        header p {
+            color: #555;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        section h2 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        section p {
+            text-align: center;
+            color: #666;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 20px;
+            text-align: center;
+        }
+
+        ul li img {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido al Rincón de Rubio! 🍔🌟</h1>
+        <p>✨ Donde cada bocado es una explosión de sabor. Disfruta de nuestras hamburguesas, choriperros y mazorcadas hechas con amor. ¡Ven y vive la experiencia! 😋</p>
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/cnne-296894-160620111946-chick-fil-a-2-780x439.jpg?c=16x9&q=h_833,w_1480,c_fill"
+        width="450"
+        title="Rincón de Rubio"
+        alt="Imagen del restaurante"
+        />
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#menu">🍽 Menú</a></li>
+            <li><a href="#order-form">🛒 Formulario de Pedido</a></li>
+        </ul>
+    </nav>
+
+    <section id="menu">
+        <h2>🍔 Nuestro Menú</h2>
+        <p>¡Elige tu favorito y déjate sorprender! 😍</p>
+        <ul>
+            <li>
+                <h3>Hamburguesa Clásica</h3>
+                <p>Pan artesanal, carne de res, lechuga, tomate, queso cheddar y salsa especial. ¡Un clásico que nunca falla! 🍔</p>
+                <img src="https://laopinion.com/wp-content/uploads/sites/3/2025/01/clasica-hamburguesa-burger-king-como-hacerla-en-casa_shutterstock_2476088505.jpg?resize=1316,740&quality=80"
+                width="250"
+                alt="Imagen de una hamburguesa">
+            </li>
+            <li>
+                <h3>Perro Caliente</h3>
+                <p>Salchicha a la parrilla en pan suave, con cebolla caramelizada, mostaza y ketchup. ¡Perfecto para cualquier ocasión! 🌭</p>
+                <img src="https://imag.bonviveur.com/perrito-caliente.webp"
+                width="250"
+                alt="Imagen de un perro caliente">
+            </li>
+            <li>
+                <h3>Salchipapa</h3>
+                <p>Papas fritas acompañadas de salchichas, salsas y queso rallado. ¡Un antojo irresistible! 🍟</p>
+                <img src="https://imag.bonviveur.com/emplatado-final-de-las-salchipapas.webp"
+                width="250"
+                alt="Imagen de una salchipapa">
+            </li>
+            <li>
+                <h3>Choriperro</h3>
+                <p>Pan suave con chorizo, queso derretido y salsas al gusto. ¡Una explosión de sabor! 🌭🧀</p>
+                <img src="https://www.atrium.com.co/sites/default/files/images/productos/20220830-choriperro.jpg"
+                width="250"
+                alt="Imagen de un choriperro">
+            </li>
+            <li>
+                <h3>Mazorcada</h3>
+                <p>Mezcla de maíz tierno, pollo desmechado, papas fritas y queso. ¡Un plato lleno de tradición y sabor! 🌽</p>
+                <img src="https://www.colombianbroaster170.com/wp-content/uploads/2023/05/mazorcada-mixta.png"
+                width="250"
+                alt="Imagen de una mazorcada">
+            </li>
+        </ul>
+    </section>
+
+    <section id="order-form">
+        <h2>🛒 ¡Haz tu Pedido!</h2>
+        <p>Completa el formulario y disfruta de tu comida favorita en casa. 🚀</p>
+        <form>
+            <label for="plato">Plato:</label>
+            <input type="text" id="plato" placeholder="¿Qué deseas ordenar?">
+            <br><br>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" placeholder="¿A dónde llevamos tu pedido?">
+            <br><br>
+
+            <label for="cel">Número telefónico:</label>
+            <input type="number" id="cel" placeholder="Tu número de contacto">
+            <br><br>
+
+            <label for="cant-pago">Cantidad con la que pagas:</label>
+            <input type="number" id="cant-pago" placeholder="¿Con cuánto pagas?">
+            <br><br>
+
+            <h4>Adicionales (Selecciona los que desees):</h4>
+            <label><input type="checkbox" id="extra-queso" value="2000"> Extra Queso - $2,000 COP</label><br>
+            <label><input type="checkbox" id="extra-salsa-tomate" value="1000"> Extra Salsa de Tomate - $1,000 COP</label><br>
+            <label><input type="checkbox" id="extra-maiz" value="1500"> Extra Maíz - $1,500 COP</label><br>
+            <label><input type="checkbox" id="salsa-rosada" value="1500"> Salsa Rosada - $1,500 COP</label><br>
+            <label><input type="checkbox" id="salsa-tartara" value="2000"> Salsa Tártara - $2,000 COP</label><br>
+            <label><input type="checkbox" id="tocineta" value="3000"> Tocineta - $3,000 COP</label><br>
+            <label><input type="checkbox" id="guacamole" value="3500"> Guacamole - $3,500 COP</label><br>
+            <label><input type="checkbox" id="jalapenos" value="2000"> Jalapeños - $2,000 COP</label><br>
+            <label><input type="checkbox" id="cebolla-caramelizada" value="2500"> Cebolla Caramelizada - $2,500 COP</label><br>
+            <label><input type="checkbox" id="champinones" value="3000"> Champiñones - $3,000 COP</label><br><br>
+
+            <label for="recomendaciones">Recomendaciones:</label>
+            <textarea id="recomendaciones" cols="30" rows="5" placeholder="¿Algo más que debamos saber?"></textarea>
+            <br><br>
+
+            <input type="submit" value="Ir a caja 🚀">
+        </form>
+    </section>
+
+    <footer>
+        <p>Hecho con ❤️ por Andres Rubio. ¡Gracias por visitarnos! 😊</p>
+    </footer>
+</body>
+</html>
